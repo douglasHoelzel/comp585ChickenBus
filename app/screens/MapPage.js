@@ -8,6 +8,7 @@ import {
 import { List, ListItem } from 'react-native-elements';
 import { users } from '../config/data';
 import MapView from 'react-native-maps';
+import { Marker, Callout } from 'react-native-maps';
 
 class MapPage extends Component {
   render() {
@@ -20,8 +21,14 @@ class MapPage extends Component {
                   longitude: -85.023193359375,
                   latitudeDelta: 4,
                   longitudeDelta: 4,
-                }}
-              />
+                }}>
+
+                <Marker
+            coordinate={{latitude: 12.78825,
+            longitude: -85.4324}}
+            title={"Doug's House"}
+            description={"At end of street"}/>
+            </MapView>
         </View>
     );
   }
