@@ -1,4 +1,6 @@
 {
   "name": "FirstLookReactNavigation",
-  "displayName": "FirstLookReactNavigation"
+  "displayName": "FirstLookReactNavigation",
+   "expo":
+   { "sdkVersion": "18.0.0" }
 }
