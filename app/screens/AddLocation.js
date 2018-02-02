@@ -50,12 +50,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F1AD17',
-},
-text: {
-  justifyContent: 'center',
-  alignItems: 'center',
-  fontWeight: 'bold',
-  color: '#fff',
 }
 
 });

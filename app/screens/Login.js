@@ -94,7 +94,7 @@ class Login extends Component {
      alignItems: 'center',
      padding: 10,
      backgroundColor: '#3498DB',
-     borderRadius: 20,
+     borderRadius: 10,
      width: 200,
   },
   buttonText:{
