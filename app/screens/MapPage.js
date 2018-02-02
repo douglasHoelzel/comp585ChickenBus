@@ -16,10 +16,10 @@ class MapPage extends Component {
             <MapView
                 style={styles.map}
                 initialRegion={{
-                  latitude: 37.78825,
-                  longitude: -122.4324,
-                  latitudeDelta: 0.0922,
-                  longitudeDelta: 0.0421,
+                  latitude: 12.55241931548752,
+                  longitude: -85.023193359375,
+                  latitudeDelta: 4,
+                  longitudeDelta: 4,
                 }}
               />
         </View>
