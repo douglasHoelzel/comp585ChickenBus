@@ -6,16 +6,42 @@ import {
   ScrollView
 } from 'react-native';
 import { List, ListItem } from 'react-native-elements';
+import { Container, Header, Content, Button, Form, Item, Input } from 'native-base';
 import { users } from '../config/data';
 
 class AddLocation extends Component {
-  render() {
-    return (
-        <View style={styles.container}>
-             <Text style={styles.text}>Add Location Here</Text>
-        </View>
-    );
-  }
+    render() {
+      return (
+        <Container>
+          <Header />
+          <Content>
+            <Form>
+              <Item>
+                <Input placeholder="Route Name" />
+              </Item>
+              <Item>
+                <Input placeholder="Origin" />
+              </Item>
+              <Item>
+                <Input placeholder="Destination" />
+              </Item>
+              <Item>
+                <Input placeholder="Duration" />
+              </Item>
+              <Item>
+                <Input placeholder="Cost" />
+              </Item>
+              <Item last>
+                <Input placeholder="Notes" />
+              </Item>
+            </Form>
+            <Button block>
+            <Text>Add Route</Text>
+          </Button>
+          </Content>
+        </Container>
+      );
+    }
 }
 
 const styles = StyleSheet.create({
