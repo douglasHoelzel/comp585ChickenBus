@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import { ScrollView } from 'react-native';
-import { List, ListItem } from 'react-native-elements';
+import { Tile, List, ListItem, Button } from 'react-native-elements';
 
 class Settings extends Component {
+    handleSettingsPress = () => {
+      this.props.navigation.navigate('Me');
+    };
+
   render() {
     return (
       <ScrollView>
@@ -23,6 +27,11 @@ class Settings extends Component {
             rightIcon={{ name: 'cancel' }}
           />
         </List>
+        <Button
+          title="Back"
+          buttonStyle={{ marginTop: 20 }}
+          onPress={this.handleSettingsPress}
+        />
       </ScrollView>
     );
   }

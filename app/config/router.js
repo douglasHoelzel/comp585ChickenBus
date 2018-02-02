@@ -10,7 +10,7 @@ import Settings from '../screens/Settings';
 import UserDetail from '../screens/UserDetail';
 import Me from '../screens/Me';
 
-export const FeedStack = StackNavigator({
+export const PageStack = StackNavigator({
   Login: {
       screen: Login,
       navigationOptions: {
@@ -31,6 +31,7 @@ export const FeedStack = StackNavigator({
   },
   Details: {
     screen: UserDetail,
+    headerMode: "Settings",
     navigationOptions: ({ navigation }) => ({
       title: `${navigation.state.params.name.first.toUpperCase()} ${navigation.state.params.name.last.toUpperCase()}`,
     }),
