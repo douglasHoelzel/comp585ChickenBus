@@ -12,7 +12,8 @@ import { users } from '../config/data';
 class AddLocation extends Component {
     render() {
       return (
-        <Container>
+        <Container style={styles.mainContainer}>
+            <Text style={styles.headerText}>Add Route</Text>
           <Header />
           <Content>
             <Form>
@@ -35,8 +36,8 @@ class AddLocation extends Component {
                 <Input placeholder="Notes" />
               </Item>
             </Form>
-            <Button block>
-            <Text>Add Route</Text>
+            <Button block style={styles.buttonContainer}>
+            <Text style={styles.buttonText}>Submit Route</Text>
           </Button>
           </Content>
         </Container>
@@ -45,11 +46,23 @@ class AddLocation extends Component {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F1AD17',
+buttonContainer:{
+    backgroundColor: '#545BFF',
+},
+buttonText: {
+    color: '#fff',
+    fontWeight: 'bold',
+    fontSize:  18,
+},
+headerText:{
+    marginTop: 60,
+    backgroundColor: '#373CB6',
+    color: '#fff',
+    fontWeight: 'bold',
+    fontSize:  18,
+    height: 60,
+},
+mainContainer:{
 }
 
 });
