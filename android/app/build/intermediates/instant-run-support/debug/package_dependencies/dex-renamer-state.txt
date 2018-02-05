@@ -1,0 +1,4 @@
+#Mon Feb 05 13:11:02 EST 2018
+base.0=/Users/doug/Desktop/school/Spring2018/COMP585/reactNativeApp/android/app/build/intermediates/transforms/dexMerger/debug/10
+path.0=classes.dex
+renamed.0=classes.dex

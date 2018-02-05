@@ -14,7 +14,6 @@ class AddLocation extends Component {
       return (
         <Container style={styles.mainContainer}>
             <Text style={styles.headerText}>Add Route</Text>
-          <Header />
           <Content>
             <Form>
               <Item>
@@ -37,7 +36,7 @@ class AddLocation extends Component {
               </Item>
             </Form>
             <Button block style={styles.buttonContainer}>
-            <Text style={styles.buttonText}>Submit Route</Text>
+            <Text style={styles.buttonText}>Submit</Text>
           </Button>
           </Content>
         </Container>
@@ -47,7 +46,7 @@ class AddLocation extends Component {
 
 const styles = StyleSheet.create({
 buttonContainer:{
-    backgroundColor: '#545BFF',
+    backgroundColor: '#373CB6',
 },
 buttonText: {
     color: '#fff',
@@ -60,7 +59,8 @@ headerText:{
     color: '#fff',
     fontWeight: 'bold',
     fontSize:  18,
-    height: 60,
+    height: 80,
+
 },
 mainContainer:{
 }

@@ -23,8 +23,9 @@ class MapPage extends Component {
                   longitudeDelta: 4,
                 }}>
 
-                <Marker
-            coordinate={{latitude: 12.78825,
+            <Marker
+            coordinate={{
+            latitude: 12.78825,
             longitude: -85.4324}}
             title={"Doug's House"}
             description={"At end of street"}/>
