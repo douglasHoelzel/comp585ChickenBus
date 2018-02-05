@@ -17,8 +17,6 @@ class Login extends Component {
         return (
           <View style={styles.container}>
               <View style={styles.imageContainer}>
-                  <Image style={styles.image1}
-                      source={require('../images/chickenImage.png')}/>
                   <Image style={styles.image2}
                       source={require('../images/chickenBusLogo1.png')}/>
               </View>
@@ -26,7 +24,7 @@ class Login extends Component {
               <View style={styles.userNameContainer}>
               <TextInput
                   style={{height: 40,
-                      backgroundColor: '#FCF3CF',
+                      backgroundColor: '#F9F6EB',
                       borderRadius: 6,}}
                   placeholder="User Name"
                   onChangeText={(text) => this.setState({text})}
@@ -35,7 +33,7 @@ class Login extends Component {
               <View style={styles.userNameContainer}>
               <TextInput
                   style={{height: 40,
-                      backgroundColor: '#FCF3CF',
+                      backgroundColor: '#F9F6EB',
                       borderRadius: 6,}}
                   secureTextEntry={true}
                   placeholder="Password"
@@ -93,7 +91,7 @@ class Login extends Component {
   buttonCell:{
      alignItems: 'center',
      padding: 10,
-     backgroundColor: '#3498DB',
+     backgroundColor: '#FFAB00',
      borderRadius: 10,
      width: 200,
   },
