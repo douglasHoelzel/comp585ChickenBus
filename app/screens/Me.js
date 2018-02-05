@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
-import { ScrollView } from 'react-native';
-import { Tile, List, ListItem, Button } from 'react-native-elements';
+import {
+  Text,
+  View,
+  StyleSheet,
+  ScrollView
+} from 'react-native';
+import { Tile, List, ListItem } from 'react-native-elements';
+import { Container, Header, Content, Button, Form, Item, Input } from 'native-base';
 import { me } from '../config/data';
 
 class Me extends Component {
@@ -18,11 +24,9 @@ class Me extends Component {
           caption={this.props.email}
         />
 
-        <Button
-          title="Settings"
-          buttonStyle={{ marginTop: 20 }}
-          onPress={this.handleSettingsPress}
-        />
+        <Button block style={styles.buttonContainer} onPress={this.handleSettingsPress}>
+            <Text style={styles.buttonText}>Setings</Text>
+        </Button>
 
         <List>
           <ListItem
@@ -64,4 +68,15 @@ class Me extends Component {
 
 Me.defaultProps = { ...me };
 
+const styles = StyleSheet.create({
+buttonContainer:{
+    backgroundColor: '#8E8E8E',
+},
+buttonText: {
+    color: '#fff',
+    fontWeight: 'bold',
+    fontSize:  18,
+}
+
+});
 export default Me;

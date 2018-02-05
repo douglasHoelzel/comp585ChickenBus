@@ -56,7 +56,7 @@ export const Tabs = TabNavigator({
   AddLocation: {
     screen: AddLocation,
     navigationOptions: {
-      tabBarLabel: 'AddLocation',
+      tabBarLabel: 'Add Location',
       tabBarIcon: ({ tintColor }) => <Icon name="add" size={35} color={tintColor} />,
     },
   },

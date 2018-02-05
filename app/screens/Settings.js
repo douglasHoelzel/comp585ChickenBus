@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
-import { ScrollView } from 'react-native';
-import { Tile, List, ListItem, Button } from 'react-native-elements';
-
+import {
+  Text,
+  View,
+  StyleSheet,
+  ScrollView
+} from 'react-native';
+import { Tile, List, ListItem } from 'react-native-elements';
+import { Container, Header, Content, Button, Form, Item, Input } from 'native-base';
 class Settings extends Component {
     handleSettingsPress = () => {
       this.props.navigation.navigate('Me');
@@ -27,14 +32,23 @@ class Settings extends Component {
             rightIcon={{ name: 'cancel' }}
           />
         </List>
-        <Button
-          title="Back"
-          buttonStyle={{ marginTop: 20 }}
-          onPress={this.handleSettingsPress}
-        />
+        <Button block style={styles.buttonContainer} onPress={this.handleSettingsPress}>
+            <Text style={styles.buttonText}>Back</Text>
+        </Button>
       </ScrollView>
     );
   }
 }
 
+const styles = StyleSheet.create({
+buttonContainer:{
+    backgroundColor: '#8E8E8E',
+},
+buttonText: {
+    color: '#fff',
+    fontWeight: 'bold',
+    fontSize:  18,
+}
+
+});
 export default Settings;

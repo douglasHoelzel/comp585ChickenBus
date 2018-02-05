@@ -13,31 +13,52 @@ class AddLocation extends Component {
     render() {
       return (
         <Container style={styles.mainContainer}>
-            <Text style={styles.headerText}>Add Route</Text>
           <Content>
+           <Text style={styles.headerTextTop}>Add Location</Text>
             <Form>
               <Item>
-                <Input placeholder="Route Name" />
+                <Input placeholder="Location Name" />
               </Item>
               <Item>
-                <Input placeholder="Origin" />
+                <Input placeholder="Coordinates (Will open map soon)" />
               </Item>
               <Item>
-                <Input placeholder="Destination" />
+                <Input placeholder="Placeholder" />
               </Item>
               <Item>
-                <Input placeholder="Duration" />
+                <Input placeholder="Placeholder2" />
               </Item>
               <Item>
-                <Input placeholder="Cost" />
+                <Input placeholder="Placeholder3" />
               </Item>
               <Item last>
-                <Input placeholder="Notes" />
+                <Input placeholder="Comments" />
               </Item>
             </Form>
+            <Text style={styles.headerTextBottom}>Add Route</Text>
+             <Form>
+               <Item>
+                 <Input placeholder="Route Name" />
+               </Item>
+               <Item>
+                 <Input placeholder="Origin" />
+               </Item>
+               <Item>
+                 <Input placeholder="Destination" />
+               </Item>
+               <Item>
+                 <Input placeholder="Duration" />
+               </Item>
+               <Item>
+                 <Input placeholder="Cost" />
+               </Item>
+               <Item last>
+                 <Input placeholder="Notes" />
+               </Item>
+             </Form>
             <Button block style={styles.buttonContainer}>
-            <Text style={styles.buttonText}>Submit</Text>
-          </Button>
+                <Text style={styles.buttonText}>Submit</Text>
+            </Button>
           </Content>
         </Container>
       );
@@ -46,16 +67,26 @@ class AddLocation extends Component {
 
 const styles = StyleSheet.create({
 buttonContainer:{
-    backgroundColor: '#373CB6',
+    backgroundColor: '#00A3FF',
 },
 buttonText: {
     color: '#fff',
     fontWeight: 'bold',
     fontSize:  18,
 },
-headerText:{
+headerTextTop:{
+    paddingTop: 30,
+    backgroundColor: '#D03038',
+    color: '#fff',
+    fontWeight: 'bold',
+    fontSize:  18,
+    height: 80,
+
+},
+headerTextBottom:{
+    paddingTop: 30,
     marginTop: 60,
-    backgroundColor: '#373CB6',
+    backgroundColor: '#FFAB00',
     color: '#fff',
     fontWeight: 'bold',
     fontSize:  18,

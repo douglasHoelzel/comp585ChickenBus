@@ -57,6 +57,14 @@ class Login extends Component {
                   <Text style={styles.buttonText}> Sign Up </Text>
                   </TouchableOpacity>
               </View>
+              <View style={styles.buttonContainer}>
+                  <TouchableOpacity
+                      style={styles.buttonCell}
+                      onPress={this.onPress}
+                  >
+                  <Text style={styles.buttonText}> Sign in with FaceBook </Text>
+                  </TouchableOpacity>
+              </View>
         </View>
 
         );
