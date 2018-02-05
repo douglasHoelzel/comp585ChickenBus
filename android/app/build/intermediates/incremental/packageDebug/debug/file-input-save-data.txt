@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Feb 05 13:41:01 EST 2018
+#Mon Feb 05 13:53:35 EST 2018
 5.base=/Users/doug/Desktop/school/Spring2018/COMP585/reactNativeApp/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 42.base=/Users/doug/Desktop/school/Spring2018/COMP585/reactNativeApp/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 22.path=lib/armeabi-v7a/libfolly_json.so
