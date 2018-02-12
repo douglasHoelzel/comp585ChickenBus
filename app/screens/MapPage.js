@@ -3,11 +3,11 @@ import {
   Text,
   View,
   StyleSheet,
-  ScrollView,
   Alert,
   Image,
   TouchableOpacity,
-  TouchableHighlight
+  TouchableHighlight,
+  ScrollView
 } from 'react-native';
 import { Button } from 'native-base';
 import { List, ListItem } from 'react-native-elements';
@@ -70,11 +70,18 @@ class MapPage extends Component {
 
             <Modal style={styles.modal}
                 isVisible={this.state.isModalVisible}>
-              <View style={{ flex: 2 }}>
-                <Text style={styles.detailsHeader}>Details: </Text>
+              <View style={{width: 372}}>
+                <Text style={styles.detailsHeader}>Details </Text>
+                    <ScrollView horizontal>
+                           <Image style={{width: 400, height: 300}}source={require('../images/bunsTestImage.png')} />
+                           <Image style={{width: 400, height: 300}}source={require('../images/bunsTestImage2.png')} />
+                           <Image style={{width: 400, height: 300}}source={require('../images/bunsTestImage3.png')} />
+                           <Image style={{width: 400, height: 300}}source={require('../images/bunsTestImage4.png')} />
+                    </ScrollView>
                 <Text style={styles.fieldText}>Name: Buns </Text>
                 <Text style={styles.fieldText}>Description: Hamburger Restaurant</Text>
                 <Text style={styles.fieldText}>Town: Chapel Hill </Text>
+                <Text style={styles.fieldText}>Comments:  Comments can go here </Text>
                 <Text style={styles.thumbsIconText}><Image style={styles.thumbsUpIcon} source={require('../images/thumbsUpIcon.png')}/> 9 </Text>
                 <Text style={styles.thumbsIconText}><Image style={styles.thumbsDownIcon} source={require('../images/thumbsDownIcon.png')}/> 2 </Text>
 
@@ -120,13 +127,14 @@ modal: {
 },
 fieldText:{
     fontWeight: 'bold',
-    fontSize:  18,
+    fontSize:  16,
     paddingBottom: 6,
     paddingTop: 6,
     color: '#4B4B4B',
 },
 detailsHeader:{
     paddingTop: 30,
+    paddingLeft: 10,
     backgroundColor: '#6B93EB',
     color: '#fff',
     fontWeight: 'bold',
@@ -146,7 +154,6 @@ backButton: {
   borderRadius: 0,
   backgroundColor: '#6B93EB',
   height: 50,
-  width: 375,
 },
 thumbsIconText: {
     fontWeight: 'bold',

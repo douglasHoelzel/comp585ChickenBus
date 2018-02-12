@@ -5,414 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e483a8c-d4df-4889-b899-107bf45ad821" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_android_25.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/generated/mockable-android-25.v3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/generated/source/buildConfig/androidTest/debug/com/airbnb/android/react/maps/test/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/generated/source/r/androidTest/debug/android/support/v4/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/generated/source/r/androidTest/debug/com/airbnb/android/react/maps/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/generated/source/r/androidTest/debug/com/airbnb/android/react/maps/test/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/generated/source/r/androidTest/debug/com/google/android/gms/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/generated/source/r/androidTest/debug/com/google/android/gms/base/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/generated/source/r/androidTest/debug/com/google/android/gms/maps/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/generated/source/r/androidTest/debug/com/google/android/gms/tasks/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/debug.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-af.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-am.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ar.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-az.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-be.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-bg.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-bn.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-bs.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ca.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-cs.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-da.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-de.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-el.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-en-rGB.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-es-rUS.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-es.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-et.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-eu.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-fa.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-fi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-fr-rCA.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-fr.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-gl.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-gu.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-hi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-hr.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-hu.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-hy.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-in.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-is.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-it.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-iw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ja.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ka.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-kk.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-km.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-kn.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ko.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ky.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-lo.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-lt.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-lv.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-mk.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ml.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-mn.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-mr.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ms.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-my.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-nb.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ne.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-nl.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-pa.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-pl.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-pt-rBR.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-pt-rPT.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ro.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ru.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-si.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sk.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sl.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sq.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sr.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sv.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ta.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-te.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-th.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-tl.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-tr.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-uk.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ur.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-uz.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-vi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-zh-rCN.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-zh-rHK.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-zh-rTW.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values-zu.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/multi-v2/values.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/blame/res/androidTest/debug/single/debug.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/compileDebugAndroidTestAidl/dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-af/values-af.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-am/values-am.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ar/values-ar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-az/values-az.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-be/values-be.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-bg/values-bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-bn/values-bn.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-bs/values-bs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ca/values-ca.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-cs/values-cs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-da/values-da.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-de/values-de.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-el/values-el.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-en-rGB/values-en-rGB.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-es-rUS/values-es-rUS.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-es/values-es.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-et/values-et.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-eu/values-eu.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-fa/values-fa.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-fi/values-fi.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-fr/values-fr.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-gl/values-gl.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-gu/values-gu.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-hi/values-hi.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-hr/values-hr.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-hu/values-hu.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-hy/values-hy.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-in/values-in.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-is/values-is.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-it/values-it.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-iw/values-iw.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ja/values-ja.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ka/values-ka.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-kk/values-kk.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-km/values-km.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-kn/values-kn.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ko/values-ko.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ky/values-ky.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-lo/values-lo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-lt/values-lt.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-lv/values-lv.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-mk/values-mk.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ml/values-ml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-mn/values-mn.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-mr/values-mr.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ms/values-ms.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-my/values-my.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-nb/values-nb.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ne/values-ne.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-nl/values-nl.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-pa/values-pa.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-pl/values-pl.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ro/values-ro.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ru/values-ru.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-si/values-si.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-sk/values-sk.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-sl/values-sl.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-sq/values-sq.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-sr/values-sr.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-sv/values-sv.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-sw/values-sw.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ta/values-ta.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-te/values-te.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-th/values-th.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-tl/values-tl.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-tr/values-tr.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-uk/values-uk.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ur/values-ur.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-uz/values-uz.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-vi/values-vi.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-zu/values-zu.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/manifest/androidTest/debug/output.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/androidTest/debug/output.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/androidTest/debug/resources-debugAndroidTest.ap_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/color_common_google_signin_btn_text_dark.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/color_common_google_signin_btn_text_light.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/color_common_google_signin_btn_tint.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_common_full_open_on_phone.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_googleg_disabled_color_18.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_googleg_standard_color_18.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_googleg_disabled_color_18.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_googleg_standard_color_18.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_common_full_open_on_phone.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_googleg_disabled_color_18.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_googleg_standard_color_18.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_googleg_standard_color_18.png.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable_common_google_signin_btn_icon_dark.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable_common_google_signin_btn_icon_dark_focused.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable_common_google_signin_btn_icon_dark_normal.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable_common_google_signin_btn_icon_disabled.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable_common_google_signin_btn_icon_light.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable_common_google_signin_btn_icon_light_focused.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable_common_google_signin_btn_icon_light_normal.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable_common_google_signin_btn_text_dark.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable_common_google_signin_btn_text_dark_focused.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable_common_google_signin_btn_text_dark_normal.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable_common_google_signin_btn_text_disabled.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable_common_google_signin_btn_text_light.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable_common_google_signin_btn_text_light_focused.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/drawable_common_google_signin_btn_text_light_normal.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-af_values-af.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-am_values-am.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-ar_values-ar.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-az_values-az.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-be_values-be.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-bg_values-bg.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-bn_values-bn.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-bs_values-bs.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-ca_values-ca.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-cs_values-cs.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-da_values-da.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-de_values-de.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-el_values-el.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-en-rGB_values-en-rGB.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-es-rUS_values-es-rUS.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-es_values-es.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-et_values-et.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-eu_values-eu.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-fa_values-fa.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-fi_values-fi.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-fr-rCA_values-fr-rCA.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-fr_values-fr.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-gl_values-gl.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-gu_values-gu.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-hi_values-hi.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-hr_values-hr.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-hu_values-hu.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-hy_values-hy.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-in_values-in.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-is_values-is.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-it_values-it.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-iw_values-iw.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-ja_values-ja.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-ka_values-ka.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-kk_values-kk.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-km_values-km.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-kn_values-kn.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-ko_values-ko.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-ky_values-ky.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-lo_values-lo.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-lt_values-lt.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-lv_values-lv.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-mk_values-mk.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-ml_values-ml.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-mn_values-mn.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-mr_values-mr.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-ms_values-ms.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-my_values-my.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-nb_values-nb.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-ne_values-ne.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-nl_values-nl.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-pa_values-pa.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-pl_values-pl.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-pt-rBR_values-pt-rBR.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-pt-rPT_values-pt-rPT.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-ro_values-ro.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-ru_values-ru.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-si_values-si.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-sk_values-sk.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-sl_values-sl.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-sq_values-sq.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-sr_values-sr.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-sv_values-sv.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-sw_values-sw.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-ta_values-ta.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-te_values-te.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-th_values-th.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-tl_values-tl.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-tr_values-tr.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-uk_values-uk.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-ur_values-ur.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-uz_values-uz.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-vi_values-vi.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-zh-rCN_values-zh-rCN.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-zh-rHK_values-zh-rHK.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-zh-rTW_values-zh-rTW.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values-zu_values-zu.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/merged/androidTest/debug/values_values.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/res/symbol-table-with-package/androidTest/debug/package-aware-r.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/symbols/androidTest/debug/R.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/firstlookreactnavigation/MainApplication$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/firstlookreactnavigation/MainApplication$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/firstlookreactnavigation/MainApplication.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/firstlookreactnavigation/MainApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/firstlookreactnavigation/MainApplication$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/firstlookreactnavigation/MainApplication$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/firstlookreactnavigation/MainApplication.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/firstlookreactnavigation/MainApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/zip-cache/buPplMh2kVweHunCsgn47eHLoFg=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/zip-cache/buPplMh2kVweHunCsgn47eHLoFg=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/zip-cache/buPplMh2kVweHunCsgn47eHLoFg=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/zip-cache/buPplMh2kVweHunCsgn47eHLoFg=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_7.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_7.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/147/com/firstlookreactnavigation/MainApplication$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/147/com/firstlookreactnavigation/MainApplication$1.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/147/com/firstlookreactnavigation/MainApplication.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/147/com/firstlookreactnavigation/MainApplication.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/7/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/7/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/firstlookreactnavigation/MainApplication$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/firstlookreactnavigation/MainApplication$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/firstlookreactnavigation/MainApplication.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/firstlookreactnavigation/MainApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/7/com/firstlookreactnavigation/MainApplication$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/7/com/firstlookreactnavigation/MainApplication$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/7/com/firstlookreactnavigation/MainApplication.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/7/com/firstlookreactnavigation/MainApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ios/ChickenBus12345.xcodeproj/project.xcworkspace/xcuserdata/doug.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/../ios/ChickenBus12345.xcodeproj/project.xcworkspace/xcuserdata/doug.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifestChecker/manifest.crc" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifestChecker/manifest.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifestChecker/manifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifestChecker/manifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/7/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/7/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstlookreactnavigation/MainApplication.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstlookreactnavigation/MainApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app/screens/MapPage.js" afterPath="$PROJECT_DIR$/../app/screens/MapPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../index.js" afterPath="$PROJECT_DIR$/../index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/CHANGELOG.md" afterPath="$PROJECT_DIR$/../node_modules/native-base/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/Button.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/Button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/Button.js.map" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/Button.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/Fab.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/Fab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/Fab.js.map" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/Fab.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/H1.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/H1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/H1.js.map" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/H1.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/H2.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/H2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/H2.js.map" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/H2.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/H3.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/H3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/H3.js.map" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/H3.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/IconNB.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/IconNB.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/IconNB.js.map" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/IconNB.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/Item.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/Item.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/Item.js.map" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/Item.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/List.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/List.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/List.js.map" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/List.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/ListItem.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/ListItem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/ListItem.js.map" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/ListItem.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/Tabs/Button.android.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/Tabs/Button.android.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/Tabs/Button.android.js.map" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/Tabs/Button.android.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/ToastContainer.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/ToastContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/ToastContainer.js.map" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/basic/ToastContainer.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/components/Button.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/components/Button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/components/Button.js.map" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/components/Button.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/components/CardItem.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/components/CardItem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/components/CardItem.js.map" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/components/CardItem.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/components/Form.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/components/Form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/components/Form.js.map" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/components/Form.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/components/Header.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/components/Header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/components/Header.js.map" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/components/Header.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/components/Item.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/components/Item.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/components/Item.js.map" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/components/Item.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/variables/platform.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/variables/platform.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/variables/platform.js.map" afterPath="$PROJECT_DIR$/../node_modules/native-base/dist/src/theme/variables/platform.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/index.d.ts" afterPath="$PROJECT_DIR$/../node_modules/native-base/index.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/package.json" afterPath="$PROJECT_DIR$/../node_modules/native-base/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/src/basic/Button.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/src/basic/Button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/src/basic/Fab.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/src/basic/Fab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/src/basic/H1.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/src/basic/H1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/src/basic/H2.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/src/basic/H2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/src/basic/H3.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/src/basic/H3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/src/basic/IconNB.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/src/basic/IconNB.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/src/basic/Item.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/src/basic/Item.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/src/basic/List.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/src/basic/List.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/src/basic/ListItem.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/src/basic/ListItem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/src/basic/Tabs/Button.android.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/src/basic/Tabs/Button.android.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/src/basic/ToastContainer.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/src/basic/ToastContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/src/theme/components/Button.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/src/theme/components/Button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/src/theme/components/CardItem.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/src/theme/components/CardItem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/src/theme/components/Form.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/src/theme/components/Form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/src/theme/components/Header.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/src/theme/components/Header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/src/theme/components/Item.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/src/theme/components/Item.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/native-base/src/theme/variables/platform.js" afterPath="$PROJECT_DIR$/../node_modules/native-base/src/theme/variables/platform.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/react-native-easy-grid/ChangeLog.md" afterPath="$PROJECT_DIR$/../node_modules/react-native-easy-grid/ChangeLog.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/react-native-easy-grid/Components/Col.js" afterPath="$PROJECT_DIR$/../node_modules/react-native-easy-grid/Components/Col.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/react-native-easy-grid/Components/Grid.js" afterPath="$PROJECT_DIR$/../node_modules/react-native-easy-grid/Components/Grid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/react-native-easy-grid/Components/Row.js" afterPath="$PROJECT_DIR$/../node_modules/react-native-easy-grid/Components/Row.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/react-native-easy-grid/Utils/computeProps.js" afterPath="$PROJECT_DIR$/../node_modules/react-native-easy-grid/Utils/computeProps.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/react-native-easy-grid/index.js" afterPath="$PROJECT_DIR$/../node_modules/react-native-easy-grid/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/react-native-easy-grid/package.json" afterPath="$PROJECT_DIR$/../node_modules/react-native-easy-grid/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/react-native-maps.iml" afterPath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/react-native-maps.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node_modules/react-native-maps/package.json" afterPath="$PROJECT_DIR$/../node_modules/react-native-maps/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../package-lock.json" afterPath="$PROJECT_DIR$/../package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../package.json" afterPath="$PROJECT_DIR$/../package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -438,14 +38,14 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="179">
               <caret line="20" column="66" lean-forward="false" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
           </provider>
         </entry>
       </file>
@@ -3954,8 +3554,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -3999,6 +3597,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -4113,7 +3713,8 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518451766635" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518465243629" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -4211,7 +3812,10 @@
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <method />
+      <method>
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518465243630" />
+      </method>
     </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Android App.app" />
@@ -4252,14 +3856,14 @@
     <frame x="92" y="22" width="1348" height="878" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32994923" sideWeight="0.48774886" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32994923" sideWeight="0.48468608" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32994923" sideWeight="0.51225114" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32994923" sideWeight="0.5153139" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -4292,6 +3896,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firstlookreactnavigation/MainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1770">
+          <caret line="118" column="17" lean-forward="false" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -4373,14 +4001,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
@@ -4408,14 +4036,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="20" column="66" lean-forward="false" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
       </provider>
     </entry>
   </component>
