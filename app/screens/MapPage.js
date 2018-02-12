@@ -11,7 +11,7 @@ import MapView from 'react-native-maps';
 import { Marker, Callout } from 'react-native-maps';
 
 {/*
-  Function here to pull all marker points
+  Add function here to pull all marker points
   from database, populate into list
 */}
 class MapPage extends Component {
@@ -26,7 +26,6 @@ class MapPage extends Component {
                   latitudeDelta: 1,
                   longitudeDelta: 1,
                 }}>
-
             <Marker
             coordinate={{
             latitude: 35.913448,

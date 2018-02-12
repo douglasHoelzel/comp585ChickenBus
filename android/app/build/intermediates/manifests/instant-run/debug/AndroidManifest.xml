@@ -30,8 +30,8 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <meta-data
-            android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyCv0EKZ7WxirSW0V-lrUI6zKt-8hl5QwRU" />
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCWgaJas-XWFgNFeqTrBmcXhprZ7KUq6JI" />
 
         <activity
             android:name="com.firstlookreactnavigation.MainActivity"
