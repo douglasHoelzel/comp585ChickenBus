@@ -70,6 +70,7 @@ class MapPage extends Component {
 
             <Modal style={styles.modal}
                 isVisible={this.state.isModalVisible}>
+                <ScrollView>
               <View style={{width: 372}}>
                 <Text style={styles.detailsHeader}>Details </Text>
                     <ScrollView horizontal>
@@ -78,14 +79,17 @@ class MapPage extends Component {
                            <Image style={{width: 400, height: 300}}source={require('../images/bunsTestImage3.png')} />
                            <Image style={{width: 400, height: 300}}source={require('../images/bunsTestImage4.png')} />
                     </ScrollView>
-                    <ScrollView >
+
                 <Text style={styles.fieldText}>Name: Buns </Text>
                 <Text style={styles.fieldText}>Description: Hamburger Restaurant</Text>
                 <Text style={styles.fieldText}>Town: Chapel Hill </Text>
                 <Text style={styles.fieldText}>Times Visited:  847 </Text>
-                <Text style={styles.fieldText}>Comments:  Comments can go here </Text>
-                <Text style={styles.fieldText}>Placeholder:  data for placeholder </Text>
-                <Text style={styles.fieldText}>Placeholder:  data for placeholder </Text>
+                <Text style={styles.fieldText}>Comments:  Comments can go here, they might be long and overflow </Text>
+                <Text style={styles.fieldText}>Placeholder: Data can go here </Text>
+                <Text style={styles.fieldText}>Placeholder: Data can go here </Text>
+                <Text style={styles.fieldText}>Placeholder: Data can go here </Text>
+                <Text style={styles.fieldText}>Placeholder: Data can go here </Text>
+                <Text style={styles.fieldText}>Placeholder: Data can go here </Text>
                 <Text style={styles.thumbsIconText}><Image style={styles.thumbsUpIcon} source={require('../images/thumbsUpIcon.png')}/> 9 </Text>
                 <Text style={styles.thumbsIconText}><Image style={styles.thumbsDownIcon} source={require('../images/thumbsDownIcon.png')}/> 2 </Text>
 
@@ -94,8 +98,9 @@ class MapPage extends Component {
                     onPress={this._toggleModal}>
                     <Text style={styles.buttonText}>Back</Text>
                 </Button>
-                </ScrollView>
               </View>
+          </ScrollView>
+
             </Modal>
 
         </View>
@@ -138,13 +143,13 @@ fieldText:{
     color: '#4B4B4B',
 },
 detailsHeader:{
-    paddingTop: 30,
+    paddingTop: 20,
     paddingLeft: 10,
     backgroundColor: '#6B93EB',
     color: '#fff',
     fontWeight: 'bold',
     fontSize:  20,
-    height: 80,
+    height: 60,
 },
 buttonText: {
     justifyContent: 'center',
