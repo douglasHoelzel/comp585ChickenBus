@@ -78,10 +78,14 @@ class MapPage extends Component {
                            <Image style={{width: 400, height: 300}}source={require('../images/bunsTestImage3.png')} />
                            <Image style={{width: 400, height: 300}}source={require('../images/bunsTestImage4.png')} />
                     </ScrollView>
+                    <ScrollView >
                 <Text style={styles.fieldText}>Name: Buns </Text>
                 <Text style={styles.fieldText}>Description: Hamburger Restaurant</Text>
                 <Text style={styles.fieldText}>Town: Chapel Hill </Text>
+                <Text style={styles.fieldText}>Times Visited:  847 </Text>
                 <Text style={styles.fieldText}>Comments:  Comments can go here </Text>
+                <Text style={styles.fieldText}>Placeholder:  data for placeholder </Text>
+                <Text style={styles.fieldText}>Placeholder:  data for placeholder </Text>
                 <Text style={styles.thumbsIconText}><Image style={styles.thumbsUpIcon} source={require('../images/thumbsUpIcon.png')}/> 9 </Text>
                 <Text style={styles.thumbsIconText}><Image style={styles.thumbsDownIcon} source={require('../images/thumbsDownIcon.png')}/> 2 </Text>
 
@@ -90,6 +94,7 @@ class MapPage extends Component {
                     onPress={this._toggleModal}>
                     <Text style={styles.buttonText}>Back</Text>
                 </Button>
+                </ScrollView>
               </View>
             </Modal>
 
@@ -100,7 +105,7 @@ class MapPage extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 6,
+    flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#17A2F1',

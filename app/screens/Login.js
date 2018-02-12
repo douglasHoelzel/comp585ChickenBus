@@ -10,7 +10,12 @@ import {
 } from 'react-native';
 import { List, ListItem, Button, Icon} from 'react-native-elements';
 import { users } from '../config/data';
-
+{/*
+  * 1) Create new view for signing up and link it to "Sign Up" button
+  *         Look at my model for ideas
+  * 2) Look into how to do Facebook Login
+  * 3) Begin thinking about how  to set up methods to write to database
+*/}
 class Login extends Component {
     render() {
         return (

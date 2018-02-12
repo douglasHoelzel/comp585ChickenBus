@@ -6,7 +6,7 @@
     density="560dpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1518464808059"
+    timestamp="1518468188579"
     token="5200159699491074880"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -62,7 +62,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1518464808059"
+        timestamp="1518468188579"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/doug/Desktop/school/Spring2018/COMP585/reactNativeApp/android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
