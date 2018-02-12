@@ -5,11 +5,10 @@ import {
   StyleSheet,
   ScrollView,
   Image,
-  Button,
   TouchableOpacity,
   TextInput
 } from 'react-native';
-import { List, ListItem } from 'react-native-elements';
+import { List, ListItem, Button, Icon} from 'react-native-elements';
 import { users } from '../config/data';
 
 class Login extends Component {

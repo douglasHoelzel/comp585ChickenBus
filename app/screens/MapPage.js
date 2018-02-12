@@ -10,6 +10,10 @@ import { users } from '../config/data';
 import MapView from 'react-native-maps';
 import { Marker, Callout } from 'react-native-maps';
 
+{/*
+  Function here to pull all marker points
+  from database, populate into list
+*/}
 class MapPage extends Component {
   render() {
     return (
@@ -17,18 +21,36 @@ class MapPage extends Component {
             <MapView
                 style={styles.map}
                 initialRegion={{
-                  latitude: 12.55241931548752,
-                  longitude: -85.023193359375,
-                  latitudeDelta: 4,
-                  longitudeDelta: 4,
+                  latitude: 35.889942,
+                  longitude: -78.862621,
+                  latitudeDelta: 1,
+                  longitudeDelta: 1,
                 }}>
 
             <Marker
             coordinate={{
-            latitude: 12.78825,
-            longitude: -85.4324}}
-            title={"Doug's House"}
-            description={"At end of street"}/>
+            latitude: 35.913448,
+            longitude:  -79.056190}}
+            title={"Buns"}
+            description={"Hamburger Restaurant"}
+            />
+            <Marker
+            coordinate={{
+            latitude: 35.904412,
+            longitude: -78.943713}}
+            title={"SouthPoint Mall"}
+            description={"Shopping Mall"}
+            />
+            <Marker
+            coordinate={{
+            latitude: 35.797220,
+            longitude: -79.011996}}
+            title={"Jordan Lake"}
+            description={"Public Recreation Area"}
+            />
+
+
+
             </MapView>
         </View>
     );
