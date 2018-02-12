@@ -90,9 +90,10 @@ class MapPage extends Component {
                 <Text style={styles.fieldText}>Placeholder: Data can go here </Text>
                 <Text style={styles.fieldText}>Placeholder: Data can go here </Text>
                 <Text style={styles.fieldText}>Placeholder: Data can go here </Text>
-                <Text style={styles.thumbsIconText}><Image style={styles.thumbsUpIcon} source={require('../images/thumbsUpIcon.png')}/> 9 </Text>
-                <Text style={styles.thumbsIconText}><Image style={styles.thumbsDownIcon} source={require('../images/thumbsDownIcon.png')}/> 2 </Text>
-
+                <View style={styles.rowContainer}>
+                    <Text style={styles.thumbsIconText}><Image style={styles.thumbsUpIcon} source={require('../images/thumbsUpIcon.png')}/> 9 </Text>
+                    <Text style={styles.thumbsIconText}><Image style={styles.thumbsDownIcon} source={require('../images/thumbsDownIcon.png')}/> 2 </Text>
+                </View>
 
                 <Button block style={styles.backButton}
                     onPress={this._toggleModal}>
@@ -140,6 +141,7 @@ fieldText:{
     fontSize:  16,
     paddingBottom: 6,
     paddingTop: 6,
+    paddingLeft: 10,
     color: '#4B4B4B',
 },
 detailsHeader:{
@@ -169,16 +171,22 @@ thumbsIconText: {
     fontWeight: 'bold',
     fontSize:  21,
     color: '#4B4B4B',
+    paddingLeft: 10,
 },
 thumbsUpIcon:{
     width: 20,
     height: 20,
+    marginLeft: 10,
 },
 thumbsDownIcon:{
     width: 20,
     height: 20,
+    marginLeft: 10,
+},
+rowContainer:{
+    paddingTop: 30,
+    justifyContent: 'center',
+    flexDirection: 'row'
 }
-
-
 });
 export default MapPage;
