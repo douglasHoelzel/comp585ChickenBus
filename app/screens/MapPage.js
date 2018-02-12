@@ -5,6 +5,7 @@ import {
   StyleSheet,
   ScrollView,
   Alert,
+  Image,
   TouchableOpacity,
   TouchableHighlight
 } from 'react-native';
@@ -27,6 +28,8 @@ class MapPage extends Component {
 
     _toggleModal = () =>
       this.setState({ isModalVisible: !this.state.isModalVisible });
+
+
   render() {
     return (
         <View style={styles.container}>
@@ -68,17 +71,20 @@ class MapPage extends Component {
             <Modal style={styles.modal}
                 isVisible={this.state.isModalVisible}>
               <View style={{ flex: 2 }}>
-                <Text>Details: </Text>
-                <Text>Name: Buns </Text>
-                <Text>Description: Hamburger Restaurant: </Text>
-                <Text>Town: Chapel Hill </Text>
+                <Text style={styles.detailsHeader}>Details: </Text>
+                <Text style={styles.fieldText}>Name: Buns </Text>
+                <Text style={styles.fieldText}>Description: Hamburger Restaurant</Text>
+                <Text style={styles.fieldText}>Town: Chapel Hill </Text>
+                <Text style={styles.thumbsIconText}><Image style={styles.thumbsUpIcon} source={require('../images/thumbsUpIcon.png')}/> 9 </Text>
+                <Text style={styles.thumbsIconText}><Image style={styles.thumbsDownIcon} source={require('../images/thumbsDownIcon.png')}/> 2 </Text>
+
 
                 <Button block style={styles.backButton}
                     onPress={this._toggleModal}>
                     <Text style={styles.buttonText}>Back</Text>
                 </Button>
               </View>
-          </Modal>
+            </Modal>
 
         </View>
     );
@@ -107,11 +113,25 @@ text: {
   color: '#fff',
 },
 modal: {
-    justifyContent: 'center',
-    alignItems: 'center',
-  backgroundColor: '#E4E4E4',
-  height: 300,
-  width: 350,
+  flex: 1,
+  alignItems: 'center',
+  justifyContent: 'center',
+  backgroundColor: '#FFFFFF',
+},
+fieldText:{
+    fontWeight: 'bold',
+    fontSize:  18,
+    paddingBottom: 6,
+    paddingTop: 6,
+    color: '#4B4B4B',
+},
+detailsHeader:{
+    paddingTop: 30,
+    backgroundColor: '#6B93EB',
+    color: '#fff',
+    fontWeight: 'bold',
+    fontSize:  20,
+    height: 80,
 },
 buttonText: {
     justifyContent: 'center',
@@ -124,9 +144,22 @@ backButton: {
   fontWeight: 'bold',
   fontSize:  18,
   borderRadius: 0,
-  backgroundColor: '#1F57D2',
+  backgroundColor: '#6B93EB',
   height: 50,
-  width: 350,
+  width: 375,
+},
+thumbsIconText: {
+    fontWeight: 'bold',
+    fontSize:  21,
+    color: '#4B4B4B',
+},
+thumbsUpIcon:{
+    width: 20,
+    height: 20,
+},
+thumbsDownIcon:{
+    width: 20,
+    height: 20,
 }
 
 
