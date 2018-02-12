@@ -3,18 +3,30 @@ import {
   Text,
   View,
   StyleSheet,
-  ScrollView
+  ScrollView,
+  Alert,
+  TouchableOpacity,
+  TouchableHighlight
 } from 'react-native';
+import { Button } from 'native-base';
 import { List, ListItem } from 'react-native-elements';
 import { users } from '../config/data';
 import MapView from 'react-native-maps';
 import { Marker, Callout } from 'react-native-maps';
+import Modal from "react-native-modal";
+
 
 {/*
   Add function here to pull all marker points
   from database, populate into list
 */}
 class MapPage extends Component {
+    state = {
+      isModalVisible: false
+    };
+
+    _toggleModal = () =>
+      this.setState({ isModalVisible: !this.state.isModalVisible });
   render() {
     return (
         <View style={styles.container}>
@@ -32,6 +44,7 @@ class MapPage extends Component {
             longitude:  -79.056190}}
             title={"Buns"}
             description={"Hamburger Restaurant"}
+            onCalloutPress={this._toggleModal}
             />
             <Marker
             coordinate={{
@@ -39,6 +52,7 @@ class MapPage extends Component {
             longitude: -78.943713}}
             title={"SouthPoint Mall"}
             description={"Shopping Mall"}
+            onCalloutPress={this._toggleModal}
             />
             <Marker
             coordinate={{
@@ -46,11 +60,26 @@ class MapPage extends Component {
             longitude: -79.011996}}
             title={"Jordan Lake"}
             description={"Public Recreation Area"}
+            onCalloutPress={this._toggleModal}
             />
-
-
-
             </MapView>
+
+
+            <Modal style={styles.modal}
+                isVisible={this.state.isModalVisible}>
+              <View style={{ flex: 2 }}>
+                <Text>Details: </Text>
+                <Text>Name: Buns </Text>
+                <Text>Description: Hamburger Restaurant: </Text>
+                <Text>Town: Chapel Hill </Text>
+
+                <Button block style={styles.backButton}
+                    onPress={this._toggleModal}>
+                    <Text style={styles.buttonText}>Back</Text>
+                </Button>
+              </View>
+          </Modal>
+
         </View>
     );
   }
@@ -76,7 +105,30 @@ text: {
   alignItems: 'center',
   fontWeight: 'bold',
   color: '#fff',
+},
+modal: {
+    justifyContent: 'center',
+    alignItems: 'center',
+  backgroundColor: '#E4E4E4',
+  height: 300,
+  width: 350,
+},
+buttonText: {
+    justifyContent: 'center',
+    color: '#fff',
+    fontWeight: 'bold',
+    fontSize:  18,
+},
+backButton: {
+  color: '#fff',
+  fontWeight: 'bold',
+  fontSize:  18,
+  borderRadius: 0,
+  backgroundColor: '#1F57D2',
+  height: 50,
+  width: 350,
 }
+
 
 });
 export default MapPage;
