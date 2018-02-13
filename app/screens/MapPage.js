@@ -9,12 +9,13 @@ import {
   TouchableHighlight,
   ScrollView
 } from 'react-native';
-import { Button } from 'native-base';
-import { List, ListItem } from 'react-native-elements';
+import { Button, List, ListItem } from 'native-base';
 import { users } from '../config/data';
 import MapView from 'react-native-maps';
 import { Marker, Callout } from 'react-native-maps';
 import Modal from "react-native-modal";
+
+
 
 
 {/*
@@ -79,17 +80,26 @@ class MapPage extends Component {
                            <Image style={{width: 400, height: 300}}source={require('../images/bunsTestImage3.png')} />
                            <Image style={{width: 400, height: 300}}source={require('../images/bunsTestImage4.png')} />
                     </ScrollView>
-
-                <Text style={styles.fieldText}>Name: Buns </Text>
-                <Text style={styles.fieldText}>Description: Hamburger Restaurant</Text>
-                <Text style={styles.fieldText}>Town: Chapel Hill </Text>
-                <Text style={styles.fieldText}>Times Visited:  847 </Text>
-                <Text style={styles.fieldText}>Comments:  Comments can go here, they might be long and overflow </Text>
-                <Text style={styles.fieldText}>Placeholder: Data can go here </Text>
-                <Text style={styles.fieldText}>Placeholder: Data can go here </Text>
-                <Text style={styles.fieldText}>Placeholder: Data can go here </Text>
-                <Text style={styles.fieldText}>Placeholder: Data can go here </Text>
-                <Text style={styles.fieldText}>Placeholder: Data can go here </Text>
+                    <List>
+                        <ListItem >
+                          <Text>Name: Buns </Text>
+                        </ListItem>
+                        <ListItem>
+                          <Text>Description: Hamburger Restaurant</Text>
+                        </ListItem>
+                        <ListItem>
+                          <Text>Town: Chapel Hill </Text>
+                        </ListItem>
+                        <ListItem>
+                          <Text>Times Visited:  847 </Text>
+                        </ListItem>
+                        <ListItem>
+                          <Text>Comments:  Comments can go here, they might be long and overflow </Text>
+                        </ListItem>
+                        <ListItem>
+                          <Text>Placeholder: Data can go here </Text>
+                        </ListItem>
+                   </List>
                 <View style={styles.rowContainer}>
                     <Text style={styles.thumbsIconText}><Image style={styles.thumbsUpIcon} source={require('../images/thumbsUpIcon.png')}/> 9 </Text>
                     <Text style={styles.thumbsIconText}><Image style={styles.thumbsDownIcon} source={require('../images/thumbsDownIcon.png')}/> 2 </Text>
