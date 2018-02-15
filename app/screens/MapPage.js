@@ -14,21 +14,49 @@ import { users } from '../config/data';
 import MapView from 'react-native-maps';
 import { Marker, Callout } from 'react-native-maps';
 import Modal from "react-native-modal";
-
-
-
+import api from '../config/API';
 
 {/*
   Add function here to pull all marker points
   from database, populate into list
+  http://nodejs-mongo-persistent-nmchenry.cloudapps.unc.edu/api/alllocations
 */}
 class MapPage extends Component {
+    constructor(props){
+        super(props);
+        {/*this.state = {
+            rovers: []
+        }*/}
+    }
+    
+ /*   componentWillMount(){
+        api.getRovers().then((res) => {
+            this.setState({
+                rovers: "bob"
+            })
+        });
+    }
+*/
     state = {
       isModalVisible: false
     };
 
     _toggleModal = () =>
       this.setState({ isModalVisible: !this.state.isModalVisible });
+
+    likePress(){
+        Alert.alert('Like Clicked')
+    }
+    
+    getRequest(){
+        fetch('http://nodejs-mongo-persistent-nmchenry.cloudapps.unc.edu/api/alllocations',{
+            method: 'GET',
+            headers: {
+                'Content-Type' : 'application/json'
+            }
+        })
+    }
+    
 
 
   render() {
@@ -157,7 +185,7 @@ fieldText:{
 detailsHeader:{
     paddingTop: 20,
     paddingLeft: 10,
-    backgroundColor: '#6B93EB',
+    backgroundColor: '#5E8DF7',
     color: '#fff',
     fontWeight: 'bold',
     fontSize:  20,
@@ -174,7 +202,7 @@ backButton: {
   fontWeight: 'bold',
   fontSize:  18,
   borderRadius: 0,
-  backgroundColor: '#6B93EB',
+  backgroundColor: '#5E8DF7',
   height: 50,
 },
 thumbsIconText: {
