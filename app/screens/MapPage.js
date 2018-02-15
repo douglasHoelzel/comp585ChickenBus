@@ -24,19 +24,17 @@ import api from '../config/API';
 class MapPage extends Component {
     constructor(props){
         super(props);
-        {/*this.state = {
+        this.state = {
             rovers: []
-        }*/}
+        }
     }
-    
- /*   componentWillMount(){
+   componentWillMount(){
         api.getRovers().then((res) => {
             this.setState({
-                rovers: "bob"
+                rovers: res.rovers
             })
         });
     }
-*/
     state = {
       isModalVisible: false
     };
@@ -47,19 +45,11 @@ class MapPage extends Component {
     likePress(){
         Alert.alert('Like Clicked')
     }
-    
-    getRequest(){
-        fetch('http://nodejs-mongo-persistent-nmchenry.cloudapps.unc.edu/api/alllocations',{
-            method: 'GET',
-            headers: {
-                'Content-Type' : 'application/json'
-            }
-        })
-    }
-    
+
 
 
   render() {
+      console.log("Rovers: ", this.state.rovers);
     return (
         <View style={styles.container}>
             <MapView
