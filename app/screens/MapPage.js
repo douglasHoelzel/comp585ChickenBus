@@ -52,17 +52,30 @@ class MapPage extends Component {
                   longitude: -78.862621,
                   latitudeDelta: 1,
                   longitudeDelta: 1,
-              }}
-            >
-            {/*<Marker
-            coordinate={{
-            latitude: 35.913448,
-            longitude:  -79.056190}}
-            title={markers[0].title}
-            description={markers[0].description}
-            onCalloutPress={this.toggleModal}
-            />
-            <Marker
+                }}
+                >
+                {markers.map(marker => (
+                <Marker 
+                coordinate={{
+                latitude: marker.latitude,
+                longitude:  marker.longitude}}
+                title={marker.title}
+                description={marker.description}
+                onCalloutPress={this.toggleModal}
+                />
+                ))}
+            
+            
+           {/* 
+                 <Marker
+                 coordinate={{
+                 latitude: markers[0].latitude,
+                 longitude:  markers[0].longitude}}
+                 title={markers[0].title}
+                 description={markers[0].description}
+                 onCalloutPress={this.toggleModal}
+                 />
+               <Marker
             coordinate={{
             latitude: 35.904412,
             longitude: -78.943713}}
