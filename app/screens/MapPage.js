@@ -14,7 +14,7 @@ import { users } from '../config/data';
 import MapView from 'react-native-maps';
 import { Marker, Callout } from 'react-native-maps';
 import Modal from "react-native-modal";
-import api from '../config/API';
+import { markers } from '../config/tempMapLocationData';
 
 {/*
   Add function here to pull all marker points
@@ -22,34 +22,27 @@ import api from '../config/API';
   http://nodejs-mongo-persistent-nmchenry.cloudapps.unc.edu/api/alllocations
 */}
 class MapPage extends Component {
-    constructor(props){
-        super(props);
-        this.state = {
-            rovers: []
-        }
-    }
-   componentWillMount(){
-        api.getRovers().then((res) => {
-            this.setState({
-                rovers: res.rovers
-            })
-        });
-    }
     state = {
-      isModalVisible: false
+      isModalVisible: false,
+      data: [],
     };
-
-    _toggleModal = () =>
+    componentWillMount(){
+        this.fetchAllLocations();
+    }
+    fetchAllLocations = async () => {
+        const response = await fetch("https://dog.ceo/api/breeds/list");
+        const json = await response.json();
+        this.setState({ data: json });
+    };
+    toggleModal = () =>
       this.setState({ isModalVisible: !this.state.isModalVisible });
-
     likePress(){
         Alert.alert('Like Clicked')
     }
 
 
-
   render() {
-      console.log("Rovers: ", this.state.rovers);
+      console.log("Markers: ", markers);
     return (
         <View style={styles.container}>
             <MapView
@@ -59,14 +52,15 @@ class MapPage extends Component {
                   longitude: -78.862621,
                   latitudeDelta: 1,
                   longitudeDelta: 1,
-                }}>
-            <Marker
+              }}
+            >
+            {/*<Marker
             coordinate={{
             latitude: 35.913448,
             longitude:  -79.056190}}
-            title={"Buns"}
-            description={"Hamburger Restaurant"}
-            onCalloutPress={this._toggleModal}
+            title={markers[0].title}
+            description={markers[0].description}
+            onCalloutPress={this.toggleModal}
             />
             <Marker
             coordinate={{
@@ -74,7 +68,7 @@ class MapPage extends Component {
             longitude: -78.943713}}
             title={"SouthPoint Mall"}
             description={"Shopping Mall"}
-            onCalloutPress={this._toggleModal}
+            onCalloutPress={this.toggleModal}
             />
             <Marker
             coordinate={{
@@ -82,8 +76,8 @@ class MapPage extends Component {
             longitude: -79.011996}}
             title={"Jordan Lake"}
             description={"Public Recreation Area"}
-            onCalloutPress={this._toggleModal}
-            />
+            onCalloutPress={this.toggleModal}
+            /> */}
             </MapView>
 
 
@@ -124,7 +118,7 @@ class MapPage extends Component {
                 </View>
 
                 <Button block style={styles.backButton}
-                    onPress={this._toggleModal}>
+                    onPress={this.toggleModal}>
                     <Text style={styles.buttonText}>Back</Text>
                 </Button>
               </View>
